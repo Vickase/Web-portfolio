@@ -15,31 +15,23 @@
         
 .jumbotron h1 {
         color: rgba(255, 255, 255, 0.8);
-        font-size: 60px;
+    /*font-size: 60px;*/
         text-align: center;
         padding-top: 60px;
         line-height: 100px;
     }
     #first-jumbotron {
-        background-image: url("https://img.webnots.com/2017/05/parallax.jpg") !important;
+        background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2018/02/heather-day-art-05.jpg") !important;
         }
          
     #second-jumbotron {
-        background-image: url("https://img.webnots.com/2017/05/parallax1.jpg");
+        background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2018/02/heather-day-art-01.jpg");
         }
          
     #third-jumbotron {
-        background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
+        background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2018/02/heather-day-art-03.jpg");
         }
     #fourth-jumbotron {
-            background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
+            background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2018/02/heather-day-art-12.jpg");
         }
-        .m-t-3 {
-            padding: 2.5rem 0;
-            text-align: center;
-            color: white;
-            background-color: #607D8B;
-            border-top: .05rem solid #e5e5e5;
-            }
-             
-            
+        
