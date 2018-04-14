@@ -93,6 +93,9 @@ html {
 .btn{
     background-color: rgba(174, 255, 240, 0.8)!important;
 }
+.card {
+    background-color: rgba(255, 255, 255, 0.5)
+}
 .card-title{
     font-size: 3vw;
     font-family: watermelon;
@@ -101,4 +104,5 @@ html {
 .card-img-top{
     height: 50%;
     width:100%;
+    padding: 2px 2px 0px 2px;
 }
