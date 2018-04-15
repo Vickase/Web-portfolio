@@ -4,23 +4,26 @@
     font-family: watermelon;
     src: url("./fonts/Watermelon Script Demo.ttf");
 }
+
+
 html {
     height: 100%;
 }
 
 
 .jumbotron {
-    height: 100vh;
+    min-height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
     font-family: 'Roboto Slab';
     
-    
+    margin-bottom: 0;
+    padding: 2rem 1rem !important;
 }
-.jumbotron{margin-bottom: 0;}
+
 .jumbotron p {
-    font-size: 1.5vw;
+    font-size: 20px;
     color: #35065c;
     text-align: center;
     padding-top: 2em
@@ -30,41 +33,26 @@ html {
 
 .jumbotron h1 {
     color: rgba(57, 15, 155, 0.8);
-    text-align: center;
-    font-style: bold !important;
-    
-    
+    font-family: watermelon;
 }
 #apart{
-    font-size: 2vh !important;
+    font-size: 15px;
 }
 
 #first-jumbotron {
     background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2015/11/b10-adjusted.jpg") !important;
     
 }
-.display-1 {
+.titulo-1 {
     
-    font-family: watermelon;
-    font-size:10vw;
-    
-}
-.display-2{
-    font-size: 7vw;
-    font-family: watermelon;
+    font-size: 120px;
     
 }
-.display-3{
-    font-size: 5vw;
-    font-family: watermelon;
-    padding-bottom:1em; 
+.titulo-2{
+    font-size: 90px;
     
 }
-.display-4{
-    font-size: 7vw;
-    font-family: watermelon;
-    
-}
+
 #second-jumbotron {
     background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2015/11/b3.jpg");
 }
@@ -97,7 +85,7 @@ html {
     background-color: rgba(255, 255, 255, 0.5)
 }
 .card-title{
-    font-size: 3vw;
+    font-size: 40px;
     font-family: watermelon;
     color: rgba(57, 15, 155, 0.8);
 }
@@ -106,3 +94,26 @@ html {
     width:100%;
     padding: 2px 2px 0px 2px;
 }
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .jumbotron .lead{
+        font-size:15px;
+    }
+    .titulo-1 {
+        font-size: 75px;
+        
+    }
+    .titulo-2{
+        font-size: 60px;   
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    } 
+
