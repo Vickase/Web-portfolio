@@ -41,7 +41,7 @@ html {
     font-size: 15px;
 }
 
-#first-jumbotron {
+#welcome-section {
     background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2015/11/b10-adjusted.jpg") !important;
     
 }
@@ -61,7 +61,7 @@ html {
     background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2015/11/b3.jpg");
 }
 
-#third-jumbotron {
+#projects {
     background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2015/11/b9-redo1.jpg");
 }
 #fourth-jumbotron {
@@ -82,7 +82,7 @@ html {
     font-family: 'Roboto Slab';
     color: rgba(51, 17, 142, 0.8)!important;
 }
-.btn{
+.project-tile{
     border: solid 1px rgba(51, 17, 142, 0.8);
     background-color: rgba(51, 17, 142, 0.8);
     color: white;

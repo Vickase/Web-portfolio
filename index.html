@@ -22,7 +22,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   
   
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="navbar">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,7 +42,7 @@
     </div>
   </nav>
   
-  <div class="jumbotron jumbotron-fluid" id="first-jumbotron">
+  <div class="jumbotron jumbotron-fluid" id="welcome-section">
     <div class="container">
       <h1 class="titulo-1 text-center" id="display-1">Vickase</h1>
       <p class="lead">This is a mock portfolio inspired by FreeCodeCamp.</p>
@@ -56,14 +56,14 @@
         <p id="apart"> Website's wallpaper belong to their respective owners.</p>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid" id="third-jumbotron">
+    <div class="jumbotron jumbotron-fluid" id="projects">
       <div class="container">
         <div class="card-deck">
           <div class="card">
             <img class="card-img-top" src="./img/tumblr.png" alt="Card image cap">
             <div class="card-body text-center">
               <h5 class="card-title text-center">Tumblr</h5>
-              <a href="#" class="btn">View project</a>
+              <a href="#" class="project-tile">View project</a>
              
             </div>
           </div>
@@ -93,7 +93,7 @@
         <h1 class="titulo-2 text-center" id="display-3">Contact me!</h1>
         
         <div id="contact-btn-container">
-          <a href="https://www.github.com/vickase" id="github-logo" class="contact-btn">
+          <a href="https://www.github.com/vickase" id="profile-link" target="_blank" class="contact-btn">
             Github
           </a>
           <a href="https://www.instagram.com" id="instagram-logo" class="contact-btn">
@@ -110,6 +110,6 @@
       
       
     </div>
-    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
   </html>
